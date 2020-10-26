@@ -1,0 +1,34 @@
+I'm pretty new to github so please excuse me, I could not find an easier way to coment on your Problem.
+
+I'm by no way one of the Nuberphile guys, but I`ll give IT my best shot.
+
+When I was looking at your solution, a pattern emerged.
+Start with 4 and multiply as long as possible with 4,
+then when you "Hit" 16 go to 1 and so on.
+This pattern will give the best solution until now.
+I was interested in if there is a better pattern with other nubers.
+
+I got to this formula:
+
+n^(15-(n-1)) /(n-1)!
+
+This will give you the best result with the pattern you used. 
+With 4 it is:
+
+4^12 /6
+
+Or
+
+4*4*4/1*4*4*4/2*4*4*4/3*4*4*4
+
+This syncs up perfectly with the best found pattern.
+
+If you analyse the formula,
+you can proof that n=4 is by far the best solution,
+as long as you only use whole nubers. 
+Because the faculty part of the formula grows way more rapid than the exponential part. 
+You can show that the Funktion is rather nice between n=1 and n=14. 
+This funktion needs to have at least on maximum(or minimum) and you can show it is between n=3 and n=5
+
+So as long as there is no improved pattern,
+this is the best solution.
